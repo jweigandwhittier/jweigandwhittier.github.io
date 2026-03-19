@@ -1,0 +1,11 @@
+---
+title: "Rat Bite Bar"
+collection: models
+category: "animal-cradles"
+model_url: "/files/models/bitebarRat.glb"
+downloads:
+  - label: "bitebarRat"
+    url: "/files/models/bitebarRat.stl"
+---
+
+A bite bar for rats under anesthesia.

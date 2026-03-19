@@ -1,0 +1,11 @@
+---
+title: "Bruker Cardiac Coil Support"
+collection: models
+category: "coil-supports"
+model_url: "/files/models/cardiacCradle.glb"
+downloads:
+  - label: "cardiacCradle"
+    url: "/files/models/cardiacCradle.stl"
+---
+
+Structure for supporting a cardiac surface coil within a quadrature volume coil. 

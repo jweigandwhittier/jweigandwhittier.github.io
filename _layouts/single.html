@@ -45,7 +45,33 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        {% if page.model_url %}
+          <div class="model-container" style="width: 100%; height: 500px; background-color: #222; margin-bottom: 2em; border-radius: 8px; overflow: hidden;">
+            <model-viewer 
+              src="{{ page.model_url | relative_url }}" 
+              alt="{{ page.title }}" 
+              auto-rotate 
+              camera-controls 
+              shadow-intensity="1"
+              environment-intensity="1.5"
+              exposure="1.2"
+              style="width: 100%; height: 100%; outline: none; background-color: #1a1a1a;">
+            </model-viewer>
+          </div>
+        {% endif %}
+
+        {{ content | markdownify }}
+
+        {% if page.downloads %}
+          <div class="model-downloads" style="margin-top: 2em; border-top: 1px solid #444; padding-top: 1em; margin-bottom: 2em;">
+            <h4>Project Files</h4>
+            {% for item in page.downloads %}
+              <a href="{{ item.url | relative_url }}" class="btn btn--info" download style="margin-right: 10px; margin-bottom: 10px;">
+                <i class="fas fa-download"></i> {{ item.label }}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>

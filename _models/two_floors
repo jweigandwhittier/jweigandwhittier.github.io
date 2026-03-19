@@ -1,0 +1,11 @@
+---
+title: "Six-Mouse Cradle (PET + fMRI)"
+collection: models
+category: "animal-cradles"
+model_url: "/files/models/twoFloors.glb"
+downloads:
+  - label: "twoFloors"
+    url: "/files/models/twoFloors.stl"
+---
+
+A six-mouse cradle for simultaneous PET and MR brain imaging. Made in collaboration with Dr. Joseph Mandeville. 

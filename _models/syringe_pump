@@ -1,0 +1,11 @@
+---
+title: "Syringe Pump"
+collection: models
+category: "misc"
+model_url: "/files/models/syringePump.glb"
+downloads:
+  - label: "syringePump"
+    url: "/files/models/syringePump.stl"
+---
+
+Syringe pump for six in-scanner injections of two agents (e.g. MR contrast and PET tracer). This was drawn as a concept and never printed or tested.

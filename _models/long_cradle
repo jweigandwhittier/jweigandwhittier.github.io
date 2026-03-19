@@ -1,0 +1,11 @@
+---
+title: "Long, Single Mouse Cradle"
+collection: models
+category: "animal-cradles"
+model_url: "/files/models/longCradle.glb"
+downloads:
+  - label: "longCradle"
+    url: "/files/models/longCradle.stl"
+---
+
+A long mouse cradle for use with a custom volume coil. Cutouts for anesthesia and waste anesthetic gas scavenging. 

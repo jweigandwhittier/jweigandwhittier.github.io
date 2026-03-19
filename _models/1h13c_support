@@ -1,0 +1,15 @@
+---
+title: "Custom 1H/13C Coil Support"
+collection: models
+category: "coil-supports"
+model_url: "/files/models/fullCoil.glb"
+downloads:
+  - label: "coilBase"
+    url: "/files/models/coilBase.stl"
+  - label: "fastenerLeft"
+    url: "/files/models/fastenerLeft.stl"
+  - label: "fastenerRight"
+    url: "/files/models/fastenerRight.stl"
+---
+
+Structure for supporting a 14cm 1H/13C coil within a 20cm bore. [PVC pipes](https://www.mcmaster.com/5066K38/) are used to insert the coil and structure, small tabs hold the structure in place by attaching to the lip of the gradient insert.
